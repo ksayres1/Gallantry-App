@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/api/*/route.ts": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "SMTP_HOST": "@smtp_host",
+    "SMTP_PORT": "@smtp_port", 
+    "SMTP_USER": "@smtp_user",
+    "SMTP_PASS": "@smtp_pass"
+  }
+}
